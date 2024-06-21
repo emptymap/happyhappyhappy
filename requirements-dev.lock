@@ -8,3 +8,11 @@
 #   with-sources: false
 
 -e file:.
+numpy==2.0.0
+    # via happyhappyhappy
+packaging==24.1
+    # via pytesseract
+pillow==10.3.0
+    # via pytesseract
+pytesseract==0.3.10
+    # via happyhappyhappy
