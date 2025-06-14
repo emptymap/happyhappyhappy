@@ -49,6 +49,12 @@ python ./src/happyhappyhappy/happy.py <video_path> --top-left <x,y> --bottom-rig
 
 ### Example
 
+360p videos are enough for this project.
 ```bash
-python ./src/happyhappyhappy/happy.py video.mp4 --top-left "675,825" --bottom-right "1900,930"
+yt-dlp -f "best[height<=360]" "VIDEO_URL"
+```
+
+Top-left and bottom-right for 360p videos
+```bash
+rye run python ./src/happyhappyhappy/happy.py "video.mp4" --top-left "205,270" --bottom-right "640,310"
 ```
