@@ -36,7 +36,7 @@ Before running the tool, make sure you have the following dependencies installed
 Run the tool using the following command:
 
 ```bash
-python ./src/happyhappyhappy/happy.py <video_path> --top-left <x,y> --bottom-right <x,y> [--start <seconds>] [--end <seconds>]
+rye run python ./src/happyhappyhappy/happy.py <video_path> --top-left <x,y> --bottom-right <x,y> [--start <seconds>] [--end <seconds>]
 ```
 
 ### Arguments
